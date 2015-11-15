@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="col-md-8 col-md-offset-2">
+<table class="table">
+	<thead>
+		<tr>
+			<th>#</th>
+			<th>생성 단어</th>
+			<th>구성 단어</th>
+		</tr>
+    </thead>
+    <tbody>
+		{% for made_word in dq_list %}
+			<tr>
+				<th scope="row">{{forloop.counter}}</th>
+				<td>{{made_word.word}}</td>
+				<td>
+					{% for each_word in  made_word.parsed_list %}
+						{{each_word}}, 
+					{% endfor %}
+				</td>
+			</tr>
+		{% endfor %}
+    </tbody>
+</table>
+</div>
+{% endblock %}

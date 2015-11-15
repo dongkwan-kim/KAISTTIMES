@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+	<div class="col-md-4 col-md-offset-2">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="text-center">
+					<h3 class="panel-title"><a class="tableHead"  data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">문화/유람</a></h3>
+                </div>
+            </div>
+			<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+				<table class="table">
+					<tbody id="mTable" class="my">
+						{% for q in m_query %}
+								<tr><td class="text-center"><a href="javascript:void(0);" class="del">{{q.value}}</a></td></tr>
+						{% endfor %}
+					</tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="text-center">
+					<h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">학술/연구</a></h3>
+                </div>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+				<table class="table">
+					<tbody id="hTable" class="hy">
+						{% for q in h_query %}
+								<tr><td class="text-center"><a href="javascript:void(0);" class="del">{{q.value}}</a></td></tr>
+						{% endfor %}
+					</tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center">
+	<button type="button" id="makeButton" class="btn btn-success btn-lg">제작하기</button>
+	<button type="button" id="clearButton" class="btn btn-warning btn-lg">처음부터</button>	
+</div>
+
+{% endblock %}
