@@ -2,7 +2,7 @@
 
 Dokja Quiz for Web
 - for KAISTTIMES
-- used SPARCS's resources
+- used SPARCS' resources
 
 Version info
 - Python 3.2.3
