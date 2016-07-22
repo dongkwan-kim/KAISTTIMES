@@ -5,6 +5,7 @@
 # KAISTTIMESArticleListCrawler
 - 2014.07
 - java
+- Crawl kaisttimes articles between sIndex from eIndex
 
 # DokjaQuiz-for-Web
 - 2015.12
