@@ -1,6 +1,9 @@
+# DokjaQuiz-java-awt
+- latest version of DokjaQuiz java awt version.
+
 # DokjaQuiz-for-Web
 
-Dokja Quiz for Web
+DokjaQuiz for Web
 - for KAISTTIMES
 - used SPARCS' resources
 
