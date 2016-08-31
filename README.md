@@ -13,3 +13,7 @@
 - used SPARCS' resources
 - Python 3.2.3
 - Django 1.8.6
+
+# DokjaQuiz-for-Static-Web
+- 2016.08
+- only javascirpt and jquery
