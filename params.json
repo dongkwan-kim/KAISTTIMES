@@ -1,0 +1,6 @@
+{
+  "name": "Kaisttimes",
+  "tagline": "Program used for kaisttimes",
+  "body": "# DokjaQuiz-java-awt\r\n- 2014.01.13 ~ 2015.02.10\r\n- latest version of DokjaQuiz java awt version.\r\n\r\n# KAISTTIMESArticleListCrawler\r\n- 2014.07\r\n- java\r\n- Crawl kaisttimes articles between sIndex from eIndex\r\n\r\n# DokjaQuiz-for-Web\r\n- 2015.12\r\n- for KAISTTIMES\r\n- used SPARCS' resources\r\n- Python 3.2.3\r\n- Django 1.8.6\r\n\r\n# DokjaQuiz-for-Static-Web\r\n- 2016.08\r\n- only javascirpt and jquery\r\n- github hosting\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
