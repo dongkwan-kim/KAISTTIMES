@@ -17,3 +17,4 @@
 # DokjaQuiz-for-Static-Web
 - 2016.08
 - only javascirpt and jquery
+- github hosting
