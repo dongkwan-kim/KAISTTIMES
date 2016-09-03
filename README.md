@@ -17,4 +17,4 @@
 # DokjaQuiz-for-Static-Web
 - 2016.08
 - only javascirpt and jquery
-- github hosting
+- github hosting [[link]](https://todoaskit.github.io/KAISTTIMES/static-web/dq.html)
