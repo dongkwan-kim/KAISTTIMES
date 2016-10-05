@@ -6,6 +6,7 @@
 - 2014.07
 - java
 - Crawl kaisttimes articles between sIndex from eIndex
+- [result](https://www.dropbox.com/s/7y8jgncpgd1wvhr/KAISTTIMESArticleList.xlsx?dl=0)
 
 # DokjaQuiz-for-Web
 - 2015.12
